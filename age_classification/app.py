@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 import cv2
 import numpy as np
@@ -89,3 +88,4 @@ if uploaded_file is not None:
                 cv2.rectangle(img_np, (x1, y1), (x2, y2), (0,255,0), 2)
 
         st.image(img_np, caption="Image détectée", width=700)
+
