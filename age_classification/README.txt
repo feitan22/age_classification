@@ -20,7 +20,7 @@ age_classification/
 ├─ trainning/              # Notebook et scripts pour entraîner les modèles
 │   └─ train_models.ipynb  # Notebook pour entraîner KNN, Decision Tree, Naive Bayes
 ├─ requirements.txt        # Liste des packages Python nécessaires
-└─ README.md               # Documentation complète du projet
+└─ README.txt               # Documentation complète du projet
 
 ### Installer les dépendances
 
@@ -29,3 +29,4 @@ pip install -r requirements.txt
 #### Lancement de l’application
 
 python -m streamlit run app.py
+
